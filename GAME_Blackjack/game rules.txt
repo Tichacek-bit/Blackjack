@@ -1,0 +1,20 @@
+	   _____          __  __ ______   _____  _    _ _      ______  _____ 
+	  / ____|   /\   |  \/  |  ____| |  __ \| |  | | |    |  ____|/ ____|
+	 | |  __   /  \  | \  / | |__    | |__) | |  | | |    | |__  | (___  
+	 | | |_ | / /\ \ | |\/| |  __|   |  _  /| |  | | |    |  __|  \___ \ 
+	 | |__| |/ ____ \| |  | | |____  | | \ \| |__| | |____| |____ ____) |
+	  \_____/_/    \_\_|  |_|______| |_|  \_\\____/|______|______|_____/ 
+	                                                                     
+                                                                     
+
+  Object of the Game - Beat the Dealer by getting a total count value as close to 21 as possible, without going over 21.
+  Over 21	     - If either Player or Dealer has total value of cards over 21, then the other one wins, if both have over 21, whoever is closer to total value of 21 wins.
+  The Pack	     - 11 cards, reaching from 1 to 10 and then Ace(error - very small chance of getting 2 same cards in one pack(bigger chance with card number 1)).
+  Card Values        - Each value of card is written on it, Ace counts as 11, if your total count goes over 21, then it is counted as value of 1.
+  The Play	     - 2 cards are given to Player and the Dealer, Dealer's second card is hidden until it is Dealer's turn, Player is then given the choice of "Hitting" or
+			"Staying", player can "Hit" as many times as he wants(game breaks after 6 or more hits), after Player chooses "Stay", it is Dealer's turn,
+			then the Winner is determined.
+  Hit		     - Gives Player another card with value from 1 to 11 besides of cards already drawn on the table, program takes("h","H","hit","Hit","HIT")
+  Stay		     - Doesn't give Player any card and then it is Dealer's turn, program takes("s","S","stay","Stay","STAY")
+  Dealer's turn	     - Dealer "Hits" until his total value of cards is over 17.
+  Same total value   - If both Player and Dealer have same total value of cards, then the Winner is determined by amount of cards, if both have same amount, it is a tie.
